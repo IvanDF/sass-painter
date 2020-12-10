@@ -31,9 +31,8 @@ a {
 }
 
 .h-list {
-    li {
-        display: inline-flex;
-    }
+        display: flex;
+        list-style: none;
 }
 
 // TEXT
@@ -52,4 +51,21 @@ a {
 
 .txt-justify{
     text-align: justify;
+}
+
+// BUTTONS 
+
+.btn {
+    border: 1px solid transparent;
+    color: palette(2);
+    background: none;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+    &.btn-blue {
+        background: palette(1);
+    }
+    &.btn-gray {
+        background: palette(5);
+    }
 }

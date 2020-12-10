@@ -6,7 +6,7 @@
     <title>Painting Software for Beginners</title>
     <!-- FONT -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet"> 
     <!-- FONTAWESOME -->
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.css'/>
     <!-- MAIN STYLE -->
@@ -15,91 +15,193 @@
 <body>
 
     <!-- MAIN HEADER -->
-    <div class="main-header">
-        <div class="container">
-            <nav class="nav-top">
-                <div class="nav-info txt-right">
-                    <ul class="nav-info-list h-list">
-                        <li class="nav-info-item">
-                            <a href="#">
-                                <i class="fas fa-phone"></i>
-                                1-877-582-6735
-                            </a>
-                        </li>
-                        <li class="nav-info-item">
-                            <a href="#">
-                                <i class="fas fa-comment-alt"></i>
-                                Chat
-                            </a>
-                        </li>
-                        <li class="nav-info-item">
-                            <a href="#">
-                                <i class="fas fa-user"></i>
-                                Sign in
-                            </a>
-                        </li>
-                        <li class="nav-info-item">
-                            <a href="#">
-                                <i class="fas fa-shopping-cart"></i>
-                                Cart
-                            </a>
-                        </li>
-                        <li class="nav-info-item">
-                            <select name="lang" id="lang">
-                                <option value="de">Deutsch</option>
-                                <option value="en" selected>English</option>
-                                <option value="fr">Français</option>
-                                <option value="jp">日本語</option>
-                                <option value="tw">繁體中文</option>
-                            </select>
-                        </li>
-                    </ul>
-                </div>
-                <div class="navbar">
-                    <img src="./img/header/logo_painter.png" alt="" class="logo">
-                    <ul class="nav-list h-list">
-                        <li class="nav-item">
-                            <a href="#">
-                                Products
-                                <i class="fas fa-angle-down"></i>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#">
-                                Brushes
-                                <i class="fas fa-angle-down"></i>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#">Wacom Tablets</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#">Special Offers</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#">Free Trials</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#">Business</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#">
-                                Support
-                                <i class="fas fa-angle-down"></i>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#">
-                                Learning
-                                <i class="fas fa-angle-down"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-            <nav class="nav-bottom"></nav>
+    <header class="main-header">
+        <!-- NAVBAR TOP -->
+        <div class="navbar-top">
+            <div class="container">
+                <nav class="nav-top">
+                    <!-- NAV INFO -->
+                    <div class="nav-info txt-right">
+                        <ul class="nav-info-list h-list">
+                            <li class="nav-info-item">
+                                <a href="#">
+                                    <i class="fas fa-phone"></i>
+                                    1-877-582-6735
+                                </a>
+                            </li>
+                            <li class="nav-info-item">
+                                <a href="#">
+                                    <i class="fas fa-comment-alt"></i>
+                                    Chat
+                                </a>
+                            </li>
+                            <li class="nav-info-item">
+                                <a href="#">
+                                    <i class="fas fa-user"></i>
+                                    Sign in
+                                </a>
+                            </li>
+                            <li class="nav-info-item">
+                                <a href="#">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    Cart
+                                </a>
+                            </li>
+                            <li class="nav-info-item">
+                                <select name="lang" id="lang">
+                                    <option value="de">Deutsch</option>
+                                    <option value="en" selected>English</option>
+                                    <option value="fr">Français</option>
+                                    <option value="jp">日本語</option>
+                                    <option value="tw">繁體中文</option>
+                                </select>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- NAVBAR MENU -->
+                    <div class="navbar">
+                        <img src="./img/header/logo_painter.png" alt="" class="logo">
+                        <ul class="nav-list h-list">
+                            <li class="nav-item">
+                                <a href="#">
+                                    Products
+                                    <i class="fas fa-angle-down"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#">
+                                    Brushes
+                                    <i class="fas fa-angle-down"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#">Wacom Tablets</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#">Special Offers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#">Free Trials</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#">Business</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#">
+                                    Support
+                                    <i class="fas fa-angle-down"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#">
+                                    Learning
+                                    <i class="fas fa-angle-down"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
         </div>
-    </div>
+
+        <!-- HERO -->
+        <div class="hero">
+            <div class="container">
+                <div class="hero-info">
+                    <div class="hero-intro">
+                        <h2 class="title">
+                            Painter Essentials 7 (Windows/Mac)
+                        </h2>
+                        <h4>Painting software for beginners</h4>
+                        <ul class="v-list">
+                            <li>
+                                <i class="fas fa-angle-right"></i>
+                                User-friendly interface
+                            </li>
+                            <li>
+                                <i class="fas fa-angle-right"></i>
+                                AI-based photo painting
+                            </li>
+                            <li>
+                                <i class="fas fa-angle-right"></i>
+                                Industry-acclaimed brushes
+                            </li>
+                            <li>
+                                <i class="fas fa-angle-right"></i>
+                                AI-based photo painting
+                            </li>
+                            <li>
+                                <i class="fas fa-angle-right"></i>
+                                Incredible speed
+                            </li>
+                            <li>
+                                <i class="fas fa-angle-right"></i>
+                                Built-in learning
+                            </li>
+                        </ul>
+                        <button class="btn btn-gray txt-left">
+                            <span>
+                                DOWNLOAD TRIAL <br> For Windows/Mac
+                            </span>
+                            <i class="fas fa-download"></i>
+                        </button>
+                    </div>
+                    <div class="buy-now">
+                        <img src="./img/header/ico-30day-money-back-guarantee-en.png" alt="">
+                        <div class="price">
+                            $49.99
+                            <p>DOWNLOAD</p>
+                        </div>
+                        <button class="btn btn-blue">BUY NOW</button>
+                        <div class="description">
+                            <h5>LIMITED-TIME OFFER</h5>
+                            <p>FREE Animations Essentials Brush Pack ($19.99 value)</p>
+                            <a href="#"> Learn More </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="name">Brandon McDonald</div>
+            </div>
+        </div>
+
+        <!-- NAVBAR BOTTOM -->
+        <nav class="navbar-bottom">
+            <div class="container">
+                <ul class="nav-bottom-list h-list">
+                    <li class="nav-bottom-item active">
+                        <a href="#">
+                            OVERVIEW
+                        </a>
+                    </li>
+                    <li class="nav-bottom-item">
+                        <a href="#">
+                            FEATURES
+                        </a>
+                    </li>
+                    <li class="nav-bottom-item">
+                        <a href="#">
+                            COMPARE
+                        </a>
+                    </li>
+                    <li class="nav-bottom-item">
+                        <a href="#">
+                            TECH SPECS
+                        </a>
+                    </li>
+                    <li class="nav-bottom-item">
+                        <a href="#">
+                            GALLERY
+                        </a>
+                    </li>
+                    <li class="nav-bottom-item">
+                        <a href="#">
+                            LEARNING
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
     
     <script src="./dist/js/main.js"></script>
 </body>

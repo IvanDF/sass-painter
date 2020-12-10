@@ -3,7 +3,45 @@ $palette:#28acff, #fff, #E6E6E6, #989898, #666, #222, #101010;
 
 @function palette($col) {
     @return nth( $palette, $col)
-}
+};
 
 // FONTS
-$base-font: 18px 'Montserrat', sans-serif;;
+$base-font: 18px 'Montserrat', sans-serif;
+
+// CENTER MIXIN
+
+@mixin center($type) {
+    @if $type == 'ab-y' {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    @else if $type == 'ab-x' {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    @else if $type == 'ab-xy' {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    @else if $type == 'fx-y' {
+        position: fixed;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    @else if $type == 'fx-x' {
+        position: fixed;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    @else if $type == 'fx-xy' {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+}

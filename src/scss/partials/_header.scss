@@ -1,39 +1,178 @@
 // HEADER
-.main-header {
+
+// NAVBAR TOP
+
+.navbar-top {
     background: palette(7);
     .nav-top {
-        padding: 0 .8rem;
+        padding: .8rem;
         a {
             font-size: .8rem;
         }
         .nav-info {
-            i {
-                color: palette(1);
-                margin-right: 5px;
+                .nav-info-list {
+                    justify-content: flex-end;
+                    i {
+                        color: palette(1);
+                        margin-right: 5px;
+                    }
+                    a {
+                        padding: .8rem;
+                        color: palette(4);
+                    }
+                    select {
+                        margin-left: 10px;
+                    }
+                }
             }
-            a {
-                padding: .8rem;
-                color: palette(4);
-            }
-            select {
-                margin-left: 10px;
-            }
-        }
         .navbar {
-            margin-top: 10px;
+            margin-top: 25px;
             display: flex;
-            align-items: flex-start;
+            align-items: flex-end;
             img {
                 width: 100px;
+                margin-right: 15px;
             }
             .nav-list{
                 .nav-item {
                     a {
                         color: palette(2);
                         padding: .9rem 1.5rem;
+                        transition: color 350ms,
+                                    background 350ms;
+                        &:hover {
+                            background: palette(2);
+                            color: palette(7);
+                        }
+                        i {
+                            color: palette(5);
+                        }
                     }
                 }
             }
+        }
+    }
+}
+
+// HERO
+
+.hero {
+    background: url('../../img/header/hero-painteressentials-7.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    .hero-info {
+        display: flex;
+        align-items: flex-end;
+        .hero-intro {
+            width: 42%;
+            color: palette(2);
+            margin-left: 28%;
+            margin-right: 10px;
+            h2,h4 {
+                margin-bottom: 20px;
+                font-weight: 500;
+            }
+            h2 {
+                font-size: 26px;
+                white-space: nowrap;
+            }
+            h4 {
+                font-size: 22px;  
+            }
+            ul {
+                li {
+                    margin-bottom: 10px;
+                    i {
+                        color: palette(5);
+                    }
+                }
+            }
+            .btn {
+                margin-top: 30px;
+                padding: 10px;
+                display: flex;
+                align-items: center;
+                span {
+                    margin-right: 10px;
+                    padding-right: 10px;
+                    border-right: solid 1px palette(2);
+                }
+                i {
+                    margin-left: 5px;
+                    font-size: 28px;
+                }
+            }
+        }
+    }
+    .buy-now {
+        position: relative;
+        width: 30%;
+        padding: 20px;
+        margin-top: 20px;
+        min-height: 400px;
+        color: palette(2);
+        background: palette(7);
+        img {
+            position: absolute;
+            top: 20px;
+            right: 10px;
+        }
+        .price {
+            margin: 20px 0;
+            font-size: 28px;
+            font-weight: 500;
+            p {
+                color: palette(4);
+                margin-top: 10px;
+                font-size: 14px;
+                font-weight: 400;
+            }
+        }
+        .btn {
+            padding-left:30px ;
+            padding-right:30px ;
+        }
+        .description {
+            margin-top: 50px;
+            color: palette(7);
+            padding: 10px;
+            background: palette(2);
+            h5 {
+                font-weight: 500;
+                font-size: 18px;
+            }
+            p {
+                font-size: 14px;
+                margin: 10px 0;
+            }
+            a {
+                font-size: 14px;
+                font-weight: 500;
+                color: palette(1);
+            }
+        }
+    }
+    .name {
+        color: palette(2);
+        font-size: 10px;
+        padding: 15px 80px;
+    }
+}
+
+// NAVBAR BOTTOM
+
+.navbar-bottom {
+    background: palette(3);
+    .nav-bottom-item {
+        padding: 12px 24px 13px;
+        font-weight: 500;
+        a {
+            color: palette(6);
+        }
+        &.active {
+            color: palette(7);
+            background: palette(2);
+            border-bottom: solid 4px palette(7);
         }
     }
 }
