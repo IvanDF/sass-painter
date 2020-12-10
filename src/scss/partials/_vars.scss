@@ -1,5 +1,5 @@
 // PALETTE
-$palette:#28acff, #fff, #E6E6E6, #989898, #666, #222, #101010;
+$palette:#009cff, #fff, #E6E6E6, #989898, #666, #222, #101010;
 
 @function palette($col) {
     @return nth( $palette, $col)
@@ -10,7 +10,7 @@ $base-font: 18px 'Montserrat', sans-serif;
 
 // CENTER MIXIN
 
-@mixin center($type) {
+@mixin center($type: 'ab-xy') {
     @if $type == 'ab-y' {
         position: absolute;
         top: 50%;

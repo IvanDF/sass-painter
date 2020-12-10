@@ -62,10 +62,25 @@ a {
     outline: none;
     padding: 10px;
     font-size: 16px;
+    cursor: pointer;
+    transition: background 350ms;
     &.btn-blue {
         background: palette(1);
+        &:hover {
+            background: #28acff;
+        }
     }
     &.btn-gray {
         background: palette(5);
+        &:hover {
+            background: rgba(palette(5), .8);
+        }
     }
+}
+
+// IMAGES
+
+.img-resp {
+    width: 100%;
+    height: auto;
 }
