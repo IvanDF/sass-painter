@@ -1,0 +1,9 @@
+// PALETTE
+$palette:#28acff, #fff, #E6E6E6, #989898, #666, #222, #101010;
+
+@function palette($col) {
+    @return nth( $palette, $col)
+}
+
+// FONTS
+$base-font: 18px 'Montserrat', sans-serif;;

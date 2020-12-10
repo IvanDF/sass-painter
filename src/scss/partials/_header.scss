@@ -1,0 +1,39 @@
+// HEADER
+.main-header {
+    background: palette(7);
+    .nav-top {
+        padding: 0 .8rem;
+        a {
+            font-size: .8rem;
+        }
+        .nav-info {
+            i {
+                color: palette(1);
+                margin-right: 5px;
+            }
+            a {
+                padding: .8rem;
+                color: palette(4);
+            }
+            select {
+                margin-left: 10px;
+            }
+        }
+        .navbar {
+            margin-top: 10px;
+            display: flex;
+            align-items: flex-start;
+            img {
+                width: 100px;
+            }
+            .nav-list{
+                .nav-item {
+                    a {
+                        color: palette(2);
+                        padding: .9rem 1.5rem;
+                    }
+                }
+            }
+        }
+    }
+}

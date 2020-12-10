@@ -1,0 +1,55 @@
+// RESET
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: $base-font
+}
+
+// CONTAINER 
+
+.container {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+// TYPHOGRAPHY
+
+a {
+    text-decoration: none;
+}
+
+// LIST
+
+.v-list {
+    list-style: none;
+}
+
+.h-list {
+    li {
+        display: inline-flex;
+    }
+}
+
+// TEXT
+
+.txt-left{
+    text-align: left;
+}
+
+.txt-right{
+    text-align: right;
+}
+
+.txt-center{
+    text-align: center;
+}
+
+.txt-justify{
+    text-align: justify;
+}

@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: 18px "Montserrat", sans-serif;
+}
+
+.container {
+  width: 1200px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.v-list {
+  list-style: none;
+}
+
+.h-list li {
+  display: inline-flex;
+}
+
+.txt-left {
+  text-align: left;
+}
+
+.txt-right {
+  text-align: right;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.txt-justify {
+  text-align: justify;
+}
+
+.main-header {
+  background: #101010;
+}
+.main-header .nav-top {
+  padding: 0 0.8rem;
+}
+.main-header .nav-top a {
+  font-size: 0.8rem;
+}
+.main-header .nav-top .nav-info i {
+  color: #28acff;
+  margin-right: 5px;
+}
+.main-header .nav-top .nav-info a {
+  padding: 0.8rem;
+  color: #989898;
+}
+.main-header .nav-top .nav-info select {
+  margin-left: 10px;
+}
+.main-header .nav-top .navbar {
+  margin-top: 10px;
+  display: flex;
+  align-items: flex-start;
+}
+.main-header .nav-top .navbar img {
+  width: 100px;
+}
+.main-header .nav-top .navbar .nav-list .nav-item a {
+  color: #fff;
+  padding: 0.9rem 1.5rem;
+}

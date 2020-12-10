@@ -1,4 +1,9 @@
-* {
-    margin: 0;
-    padding: 0;
-}
+
+// VARS
+@import 'partials/vars';
+
+// UTILITIES
+@import 'partials/utilities';
+
+// HEADER
+@import 'partials/header';
