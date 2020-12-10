@@ -57,6 +57,25 @@ h2 {
     text-align: justify;
 }
 
+// LAYOUTS
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+     display: flex;
+ }
+
+ .w40 {
+     flex-basis: 40%;
+ }
+
+ .w60 {
+     flex-basis: 60%;
+ }
+
 // BUTTONS 
 
 .btn {
