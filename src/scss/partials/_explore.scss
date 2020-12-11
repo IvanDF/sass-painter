@@ -1,0 +1,17 @@
+.explore {
+    background: url('../../img/main/explore/brushpacks-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px 0;
+    .w40 {
+        background: palette(2);
+        padding: 60px 40px 80px;
+        margin: 50px 0;
+        &:first-child {
+            margin-right: 30px;
+        }
+        a {
+            color: palette(1);
+        }
+    }
+}

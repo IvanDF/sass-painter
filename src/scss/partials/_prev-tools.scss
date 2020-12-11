@@ -1,0 +1,29 @@
+.prev-tools {
+    padding: 80px 0 60px;
+    .row {
+        max-width: 1600px;
+        display: flex;
+        margin: 0 auto;
+        div {
+            position: relative;
+            background: #000;
+            width: calc((100% / 5 ) - 30px );
+            margin: 50px 15px;
+            overflow: hidden;
+            span {
+                width: 100%;
+                text-align: center;
+                color: palette(2);
+                @include center('ab-x');
+                bottom: 30px;
+                font-size: 20px;
+            }
+            img {
+                transition: transform 350ms;
+                &:hover {
+                    transform: scale(1.08, 1.08);
+                }
+            }
+        }
+    }
+}
